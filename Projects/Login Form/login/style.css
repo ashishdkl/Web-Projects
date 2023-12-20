@@ -1,0 +1,109 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Open+Sans&family=Poppins&family=Raleway&family=Roboto+Mono:wght@300&family=Roboto:wght@500&family=Ubuntu&family=Whisper&family=Work+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+ background-image: url(bdimg.jpg);
+ background-size: cover;
+ background-position: center;
+}
+.container{
+  height: 320px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: transparent;
+ backdrop-filter: blur(20px);
+ box-shadow: 4px 4px 4px black;
+}
+.login {
+height: 60px;
+/*border: 3px solid rebeccapurple;*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.username{
+  width: 100%;
+  height:50px;
+  /*border: 3px solid  saddlebrown;*/
+}
+.password{
+  width: 100%;
+  height:50px;
+  /*border: 3px solid  saddlebrown;*/
+}
+.save{
+  height:30px;
+  width: 100%;
+ /* border: 3px solid seagreen;*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  height:50px;
+  width: 100%;
+  /*border: 3px solid hotpink;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ur{
+  width: 100%;
+  height:40px;
+  border-radius:15px;
+  font-size:16px;
+  padding:15px;
+  outline: none;
+  border: none;
+}
+.pw{
+  width: 100%;
+  height:40px;
+  border-radius:15px;
+  font-size:16px;
+  padding:15px;
+  outline: none;
+  border: none;
+}
+.button button{
+  width: 80%;
+  height:35px;
+  border-radius: 15px;
+  font-size:18px;
+  outline: none;
+  border: none;
+}
+.create{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+  width: 100%;
+  /*border: 3px solid blue;*/
+  
+}
+.create a{
+  font-size: 17px;
+}
+.save .rm{
+  font-size: 18px;
+}
+.login p{
+  font-size:30px;
+}
+button:hover{
+  border: rebeccapurple;
+  outline: white;
+  background-color: aquamarine;
+}

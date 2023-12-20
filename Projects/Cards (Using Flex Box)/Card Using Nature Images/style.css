@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 247, 237);
+}
+.container{
+    height:80vh;
+    width: 100%;
+    flex-wrap: wrap;/* yo use gayo vane flex use garda sabai contain sida janxa ne yo responsive hunxa matlav mile rw aauxa screen ma copy ma ne xa yo */
+    border: 3px solid black;
+    display: flex;
+   justify-content: space-evenly;/* space milaye rw aauxa sabai ma barabar space between space around aru pane xa hai use garna
+   */
+    row-gap: 30px;/* row ma gap aauxa 2 ta item bich ko gap*/
+    flex-direction: row-reverse;/* yo use gara paxi box li kata jane vane milauna milxa vako box yulto hunxa rw sida x line ma aauxa*/
+}
+    
+   
+.box{
+    height: 190px;
+    width: 190px;
+    border-radius: 4px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px black;
+    border-radius:4px;
+    object-fit: cover;
+}
+img{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+   
+}

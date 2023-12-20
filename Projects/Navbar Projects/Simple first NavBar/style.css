@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Open+Sans&family=Raleway&family=Roboto+Mono:wght@300&family=Work+Sans&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+
+  }
+.list ul li{
+text-decoration: none;
+list-style-type: none;
+
+}
+
+.logo img{
+display: flex;
+}
+.list ul{
+    display: flex;
+    gap: 44px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

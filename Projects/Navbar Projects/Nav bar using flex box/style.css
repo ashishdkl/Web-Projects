@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Open+Sans&family=Raleway&family=Roboto+Mono:wght@300&family=Roboto:wght@500&family=Ubuntu&family=Whisper&family=Work+Sans&display=swap');
+
+  * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      font-family: 'Roboto Mono', monospace;
+  }
+
+  .container {
+      height: 50px;
+      width: 100vw;
+      border: 2px solid black;
+      display: flex;
+      background-color:rgb(68, 68, 68);
+  }
+
+  .logo {
+      height: 50px;
+      width: 25vw;
+  }
+
+  .contain {
+      height: 50px;
+      width: 55vw;
+
+  }
+
+  .login {
+      height: 50px;
+      width: 20vw;
+    text-align: center;
+  }
+  .login button{
+    height: 40px;
+    width:150px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight: bold;   
+ 
+}
+  .contain ul li{
+    list-style-type: none;
+    color: aliceblue;
+    
+  }
+  .contain ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:19px;
+    margin-top:5px;
+    font-weight: bold; 
+  }
+.logo h1{
+    text-align: center;
+    margin-top:5px;
+    color: aliceblue;
+}

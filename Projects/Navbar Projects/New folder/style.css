@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container header{
+    height: 50px;
+    width: 100%;
+    border: 4px solid rgb(0, 0, 0);
+    display: flex;
+}
+nav ul{
+    height: 100%;
+    width: 50%;
+    border: 3px solid blue;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+    border: 3px solid red;
+}

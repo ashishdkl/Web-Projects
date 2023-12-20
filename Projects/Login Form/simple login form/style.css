@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Open+Sans&family=Raleway&family=Roboto+Mono:wght@300&family=Roboto:wght@500&family=Ubuntu&family=Whisper&family=Work+Sans&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    /*border: 3px solid red;*/
+    /*display: flex;
+    flex-flow: column;
+    align-items: center;*/
+    box-shadow: 5px 5px 5px black;
+    border-radius: 4px;
+   padding: 20px;
+   background-color: white;
+}
+.login h3{
+    height: 40px;
+    width: 100%;
+  /*  border: 2px solid rebeccapurple;*/
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+}
+.usename{
+    height:40px;
+    width: 100%;
+   /* border: 2px solid rgb(255, 0, 157);*/
+    text-align: center;
+}
+.password{
+    height:40px;
+    width: 100%;
+   /* border: 2px solid rgb(231, 8, 8);*/
+    text-align: center;
+}
+.forgetpaddword{
+    height:30px;
+    width: 100%;
+ /*   border: 2px solid rgb(51, 153, 51);*/
+    text-align: center;
+}
+.button{
+    height:40px;
+    width: 100%;
+   /* border: 2px solid rgb(2, 154, 255);*/
+    text-align: center;
+}
+.signup{
+    height:40px;
+    width: 100%;
+   /* border: 2px solid rgb(21, 255, 0);*/
+    text-align: center;
+}
+.usename .text{
+    width: 90%;
+    height: 30px;
+}
+.password .pp{
+    width: 90%;
+    height: 30px;
+    
+}
+.forgetpaddword p{
+    font-size:15px;
+}
+.button button{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    background-color:  5890 ;
+}

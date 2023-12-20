@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Open+Sans&family=Raleway&family=Roboto+Mono:wght@300&family=Roboto:wght@500&family=Ubuntu&family=Whisper&family=Work+Sans&display=swap');
+
+  * {
+      font-family: 'Work Sans', sans-serif;
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+
+  }
+
+  .container {
+      height: 100vh;
+      width: 100vw;
+      background-color: rgb(86, 126, 160);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap:30px;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      height: 350px;
+      width: 220px;
+      border: 8px solid aliceblue;
+      border-radius: 10px;
+      background-color: aliceblue;
+      box-shadow: 6px 6px 6px black;
+  }
+
+  .image img {
+      border-radius: 25px;
+      border-bottom-right-radius: 900px;
+      height: 180px;
+      width: 100%;
+  }
+
+  .text {
+      text-align: center;
+      height: 110px;
+      width: 100%;
+  }
+
+  .buttom button {
+      height: 35px;
+      width: 70%;
+      font-size: 18px;
+      border-radius: 40px;
+      background-image: linear-gradient(to right, rgb(187, 116, 116), rgb(207, 207, 101));
+
+  }
+
+  .buttom {
+      text-align: center;
+  }
+  .buttom button:hover{
+    box-shadow: 3px 3px 3px black;
+  }
